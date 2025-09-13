@@ -1,5 +1,7 @@
 class Solution(object):
     def topKFrequent(self, nums, k):
+        if len(nums) ==1 :
+            return nums
         out = {}
         ret = []
         if len(nums) == 1:
