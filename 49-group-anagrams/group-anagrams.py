@@ -5,4 +5,3 @@ class Solution(object):
             x = ''.join(sorted(i))
             out[x].append(i)
         return list(out.values())
-        
